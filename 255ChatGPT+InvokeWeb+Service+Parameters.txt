@@ -1,0 +1,26 @@
+
+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
+
+
+URl		: https://api.openai.com/v1/completions
+Method 		:  Post
+Accept& content Type  : application/json
+custom Headers : Authorization: Bearer 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
+Request Body   : {
+  		"model": "text-davinci-003",
+  		"prompt": "Say this is a test",
+  		"max_tokens":1000,
+  		"temperature": 0,
+  		"top_p": 1,
+  		"n": 1,
+  		"stream": false,
+  		"logprobs": null,
+  		"stop": "null"
+		}
+
+
+Refernces:  
+API Reference : https://platform.openai.com/docs/api-reference
+API Reference Completions :https://platform.openai.com/docs/api-reference/completions
+API Keys Generation : https://platform.openai.com/account/api-keys
+Chat GPT: https://chat.openai.com/

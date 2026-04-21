@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<studentsteachers>
+          <students>
+                    <student class="1">
+                              <name>
+                              </name>
+                              <name>
+                              </name>
+                    </student>
+          </students>
+          <Teachers>
+                    <Teacher>
+                              <name>
+                                        <firstname> Sushama</firstname>
+                                        <lastname> P</lastname>
+                                        <gender>Female</gender>
+                              </name>
+                              <address>
+                                        <street> Hoodi</street>
+                                        <city> banglore</city>
+                                        <email> basha.ameer86@gmail.com </email>
+                                        <phone> 1234568 </phone>
+                              </address>
+                    </Teacher>
+          </Teachers>
+</studentsteachers>

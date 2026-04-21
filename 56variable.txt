@@ -1,0 +1,2 @@
+%{ ^['Product Name', 'Product Code', 'Price', 'Availability', 'Description']
+, ['Dell Laptop', '001', '25000', 'Yes', 'Laptop'], ['Real me', '002', '5000', 'Yes', 'mobile'] }%

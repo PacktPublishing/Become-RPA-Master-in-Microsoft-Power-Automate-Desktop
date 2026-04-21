@@ -1,0 +1,43 @@
+POST https://dev.azure.com/{organization}/{project}/_apis/wit/workitems/${type}?api-version=6.0
+
+https://dev.azure.com/Learningtechnologies12/MileStone/_apis/wit/workitems/$task?api-version=6.0
+
+Update: 
+PATCH https://dev.azure.com/{organization}/{project}/_apis/wit/workitems/{id}?api-version=6.0
+
+https://dev.azure.com/Learningtechnologies12/MileStone/_apis/wit/workitems/3?api-version=6.0
+
+
+
+[
+   {
+    "op": "add",
+    "path": "/fields/System.Title",
+    "from": "null",
+    "value": "%CurrentItem[2]%"
+  },
+{
+    "op": "add",
+    "path": "/fields/System.Description",
+    "from": "null",
+    "value": "%CurrentItem[2]%"
+  },
+ {
+ "op": "add",
+ "path": "/fields/System.IterationPath",
+ "from": null,
+ "value": "%CurrentItem[6]%"
+ }
+]
+
+URL:
+
+https://dev.azure.com/Learningtechnologies12/MileStone/_apis/wit/wiql?api-version=6.0
+
+Request Body: 
+{
+  "query": "Select [System.Id], [System.Title], [System.State] From WorkItems"
+}
+
+
+
